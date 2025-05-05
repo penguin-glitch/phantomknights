@@ -1,0 +1,76 @@
+<crewBlueprint name="phantom_knight">
+    <desc>Armoured both in hardlight and in conviction, these bizarre Ghosts fight for honour.
+
+Inherited Phantom stats: Ignores doors, immune to suffocation/fires, not really undead.</desc>
+    <title>Spectral Knight</title>
+    <short>Knight</short>
+    <cost>60</cost>
+    <bp>0</bp>
+    <rarity>0</rarity>
+
+    <powerList>
+        <power>Takes 0.8x damage in crew combat</power>
+        <power>Max health increased to 100 </power>
+        <power>Movement speed decreased to 0.5x</power>
+        <power>Combat damage increased to 2.0x, ranged damage reduced to 0.1x </power>
+    </powerList>
+
+    <colorList>
+		<layer>
+			<color a="1" b="255" g="255" r="255"/>
+		</layer>
+	</colorList>
+</crewBlueprint>
+
+<crewBlueprint name="unique_greenknight">
+    <desc>A legendary figure that is said to lead the most virtuous of Knights Spectral into battle. Today he fights with you.</desc>
+    <cost>115</cost>
+    <title>Legend</title>
+    <short>Legend</short>
+    <rarity>0</rarity>
+
+    <powerList>
+        <power>Active ability: Charges across the enemy ship in a beam of light, dealing system damage and tearing breaches along the way</power>
+        <power>Max health increased to 120</power>
+        <power>idk some other shit</power>
+    </powerList>
+
+    <colorList>
+		<layer>
+			<color a="1" b="0" g="255" r="0"/>
+		</layer>
+	</colorList>
+</crewBlueprint>
+
+<weaponBlueprint name="GREENKNIGHT_BEAM">
+    <type>BEAM</type>
+	<tip>tip_beams</tip>
+	<title>magical green knight beam</title>
+	<short>greenbeam</short>
+	<desc>How did you get this?</desc>
+	<tooltip>Cheater.</tooltip>
+	<damage>0</damage>
+	<sp>10</sp>
+	<fireChance>0</fireChance>
+    <persDamage>0</persDamage>
+	<breachChance>8</breachChance>
+	<speed>50</speed>
+	<cooldown>0</cooldown>
+    <ion>2</ion>
+	<power>0</power>
+	<cost>0</cost>
+	<bp>5</bp>
+	<rarity>0</rarity>
+	<image>beam_contact</image>
+    <color>
+		<r>100</r>
+		<g>100</g>
+		<b>255</b>
+	</color>
+	<length>120</length>
+	<launchSounds>
+		<sound>beam1</sound>
+		<sound>beam1_2</sound>
+	</launchSounds>
+	<iconImage>beam</iconImage>
+</weaponBlueprint>

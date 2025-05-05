@@ -1,0 +1,243 @@
+<animSheet fh="35" fw="35" h="455" name="phantom_knight" w="315">people/phantom_knight_base.png</animSheet>
+<anim name="phantom_knight_clone">
+	<sheet>phantom_knight</sheet>
+	<desc length="6" x="0" y="2"/>
+	<time>0.75</time>
+</anim>
+<anim name="phantom_knight_death_right">
+	<sheet>phantom_knight</sheet>
+	<desc length="5" x="3" y="0"/>
+	<time>0.75</time>
+</anim>
+<anim name="phantom_knight_death_left">
+	<sheet>phantom_knight</sheet>
+	<desc length="5" x="0" y="2"/>
+	<time>0.75</time>
+</anim>
+<anim name="phantom_knight_walk_down">
+	<sheet>phantom_knight</sheet>
+	<desc length="4" x="0" y="12"/>
+	<time>1.0</time>
+</anim>
+<anim name="phantom_knight_walk_right">
+	<sheet>phantom_knight</sheet>
+	<desc length="4" x="4" y="12"/>
+	<time>1.0</time>
+</anim>
+<anim name="phantom_knight_walk_up">
+	<sheet>phantom_knight</sheet>
+	<desc length="4" x="0" y="11"/>
+	<time>1.0</time>
+</anim>
+<anim name="phantom_knight_walk_left">
+	<sheet>phantom_knight</sheet>
+	<desc length="4" x="4" y="11"/>
+	<time>1.0</time>
+</anim>
+<anim name="phantom_knight_shoot_down">
+	<sheet>phantom_knight</sheet>
+	<desc length="3" x="0" y="10"/>
+	<time>1.0</time>
+</anim>
+<anim name="phantom_knight_shoot_right">
+	<sheet>phantom_knight</sheet>
+	<desc length="3" x="3" y="10"/>
+	<time>1.0</time>
+</anim>
+<anim name="phantom_knight_shoot_up">
+	<sheet>phantom_knight</sheet>
+	<desc length="3" x="6" y="10"/>
+	<time>1.0</time>
+</anim>
+<anim name="phantom_knight_shoot_left">
+	<sheet>phantom_knight</sheet>
+	<desc length="3" x="0" y="1"/>
+	<time>1.0</time>
+</anim>
+<anim name="phantom_knight_fire_down">
+	<sheet>phantom_knight</sheet>
+	<desc length="4" x="0" y="9"/>
+	<time>1.0</time>
+</anim>
+<anim name="phantom_knight_fire_right">
+	<sheet>phantom_knight</sheet>
+	<desc length="4" x="4" y="9"/>
+	<time>1.0</time>
+</anim>
+<anim name="phantom_knight_fire_up">
+	<sheet>phantom_knight</sheet>
+	<desc length="4" x="0" y="8"/>
+	<time>1.0</time>
+</anim>
+<anim name="phantom_knight_fire_left">
+	<sheet>phantom_knight</sheet>
+	<desc length="4" x="4" y="8"/>
+	<time>1.0</time>
+</anim>
+<anim name="phantom_knight_repair">
+	<sheet>phantom_knight</sheet>
+	<desc length="9" x="0" y="7"/>
+	<time>1.0</time>
+</anim>
+<anim name="phantom_knight_punch_up">
+	<sheet>phantom_knight</sheet>
+	<desc length="6" x="3" y="1"/>
+	<time>1.0</time>
+</anim>
+<anim name="phantom_knight_punch_down">
+	<sheet>phantom_knight</sheet>
+	<desc length="6" x="0" y="6"/>
+	<time>1.0</time>
+</anim>
+<anim name="phantom_knight_teleport">
+	<sheet>phantom_knight</sheet>
+	<desc length="9" x="0" y="3"/>
+	<time>0.5</time>
+</anim>
+<anim name="phantom_knight_type_right">
+	<sheet>phantom_knight</sheet>
+	<desc length="4" x="0" y="5"/>
+	<time>0.75</time>
+</anim>
+<anim name="phantom_knight_type_left">
+	<sheet>phantom_knight</sheet>
+	<desc length="4" x="4" y="5"/>
+	<time>0.75</time>
+</anim>
+<anim name="phantom_knight_type_up">
+	<sheet>phantom_knight</sheet>
+	<desc length="4" x="0" y="4"/>
+	<time>0.75</time>
+</anim>
+<anim name="phantom_knight_type_down">
+	<sheet>phantom_knight</sheet>
+	<desc length="4" x="4" y="4"/>
+	<time>0.75</time>
+</anim>
+<anim name="phantom_knight_portrait">
+	<sheet>phantom_knight</sheet>
+	<desc length="1" x="0" y="0"/>
+	<time>1</time>
+</anim>
+
+<animSheet fh="35" fw="35" h="455" name="unique_greenknight" w="315">people/unique_greenknight_base.png</animSheet>
+<anim name="unique_greenknight_clone">
+	<sheet>unique_greenknight</sheet>
+	<desc length="6" x="0" y="2"/>
+	<time>0.75</time>
+</anim>
+<anim name="unique_greenknight_death_right">
+	<sheet>unique_greenknight</sheet>
+	<desc length="5" x="3" y="0"/>
+	<time>0.75</time>
+</anim>
+<anim name="unique_greenknight_death_left">
+	<sheet>unique_greenknight</sheet>
+	<desc length="5" x="0" y="2"/>
+	<time>0.75</time>
+</anim>
+<anim name="unique_greenknight_walk_down">
+	<sheet>unique_greenknight</sheet>
+	<desc length="4" x="0" y="12"/>
+	<time>1.0</time>
+</anim>
+<anim name="unique_greenknight_walk_right">
+	<sheet>unique_greenknight</sheet>
+	<desc length="4" x="4" y="12"/>
+	<time>1.0</time>
+</anim>
+<anim name="unique_greenknight_walk_up">
+	<sheet>unique_greenknight</sheet>
+	<desc length="4" x="0" y="11"/>
+	<time>1.0</time>
+</anim>
+<anim name="unique_greenknight_walk_left">
+	<sheet>unique_greenknight</sheet>
+	<desc length="4" x="4" y="11"/>
+	<time>1.0</time>
+</anim>
+<anim name="unique_greenknight_shoot_down">
+	<sheet>unique_greenknight</sheet>
+	<desc length="3" x="0" y="10"/>
+	<time>1.0</time>
+</anim>
+<anim name="unique_greenknight_shoot_right">
+	<sheet>unique_greenknight</sheet>
+	<desc length="3" x="3" y="10"/>
+	<time>1.0</time>
+</anim>
+<anim name="unique_greenknight_shoot_up">
+	<sheet>unique_greenknight</sheet>
+	<desc length="3" x="6" y="10"/>
+	<time>1.0</time>
+</anim>
+<anim name="unique_greenknight_shoot_left">
+	<sheet>unique_greenknight</sheet>
+	<desc length="3" x="0" y="1"/>
+	<time>1.0</time>
+</anim>
+<anim name="unique_greenknight_fire_down">
+	<sheet>unique_greenknight</sheet>
+	<desc length="4" x="0" y="9"/>
+	<time>1.0</time>
+</anim>
+<anim name="unique_greenknight_fire_right">
+	<sheet>unique_greenknight</sheet>
+	<desc length="4" x="4" y="9"/>
+	<time>1.0</time>
+</anim>
+<anim name="unique_greenknight_fire_up">
+	<sheet>unique_greenknight</sheet>
+	<desc length="4" x="0" y="8"/>
+	<time>1.0</time>
+</anim>
+<anim name="unique_greenknight_fire_left">
+	<sheet>unique_greenknight</sheet>
+	<desc length="4" x="4" y="8"/>
+	<time>1.0</time>
+</anim>
+<anim name="unique_greenknight_repair">
+	<sheet>unique_greenknight</sheet>
+	<desc length="9" x="0" y="7"/>
+	<time>1.0</time>
+</anim>
+<anim name="unique_greenknight_punch_up">
+	<sheet>unique_greenknight</sheet>
+	<desc length="6" x="3" y="1"/>
+	<time>1.0</time>
+</anim>
+<anim name="unique_greenknight_punch_down">
+	<sheet>unique_greenknight</sheet>
+	<desc length="6" x="0" y="6"/>
+	<time>1.0</time>
+</anim>
+<anim name="unique_greenknight_teleport">
+	<sheet>unique_greenknight</sheet>
+	<desc length="9" x="0" y="3"/>
+	<time>0.5</time>
+</anim>
+<anim name="unique_greenknight_type_right">
+	<sheet>unique_greenknight</sheet>
+	<desc length="4" x="0" y="5"/>
+	<time>0.75</time>
+</anim>
+<anim name="unique_greenknight_type_left">
+	<sheet>unique_greenknight</sheet>
+	<desc length="4" x="4" y="5"/>
+	<time>0.75</time>
+</anim>
+<anim name="unique_greenknight_type_up">
+	<sheet>unique_greenknight</sheet>
+	<desc length="4" x="0" y="4"/>
+	<time>0.75</time>
+</anim>
+<anim name="unique_greenknight_type_down">
+	<sheet>unique_greenknight</sheet>
+	<desc length="4" x="4" y="4"/>
+	<time>0.75</time>
+</anim>
+<anim name="unique_greenknight_portrait">
+	<sheet>unique_greenknight</sheet>
+	<desc length="1" x="0" y="0"/>
+	<time>1</time>
+</anim>

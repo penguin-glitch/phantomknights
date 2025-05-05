@@ -1,0 +1,44 @@
+<mod:findLike type="crew" limit="1">
+    <mod-append:race name="phantom_knight">
+        <maxHealth>100</maxHealth>
+        <damageTakenMultiplier>0.8</damageTakenMultiplier>
+        <damageMultiplier>2.0</damageMultiplier>
+        <rangedDamageMultiplier>0.09</rangedDamageMultiplier>
+		<canBurn>false</canBurn>
+		<canSuffocate>false</canSuffocate>
+		<canPhaseThroughDoors>true</canPhaseThroughDoors>
+		<sabotageSpeedMultiplier>2</sabotageSpeedMultiplier>
+		<moveSpeedMultiplier>0.5</moveSpeedMultiplier>
+		<deathSounds>
+			<deathSound>ghostDeath</deathSound>
+		</deathSounds>
+    </mod-append:race>
+
+    <mod-append:race name="unique_greenknight">
+        <essential>1</essential>
+        <maxHealth>120</maxHealth>
+        <damageTakenMultiplier>0.8</damageTakenMultiplier>
+        <damageMultiplier>2.2</damageMultiplier>
+        <rangedDamageMultiplier>0.09</rangedDamageMultiplier>
+		<canBurn>false</canBurn>
+		<canSuffocate>false</canSuffocate>
+		<canPhaseThroughDoors>true</canPhaseThroughDoors>
+		<sabotageSpeedMultiplier>2</sabotageSpeedMultiplier>
+		<moveSpeedMultiplier>0.5</moveSpeedMultiplier>
+		<deathSounds>
+			<deathSound>ghostDeath</deathSound>
+		</deathSounds>
+
+        <powerEffect>
+            <cooldown>5</cooldown>
+            <jumpCooldown>full</jumpCooldown>
+            <buttonText>CHARGE</buttonText>
+            <tooltip>Charge across the enemy ship in a beam of light</tooltip>
+            <cooldownColor r="138" g="237" b="31"/>
+        </powerEffect>
+    </mod-append:race>
+</mod:findLike>
+
+<mod:findLike type="scripts">
+    <mod-append:script>data/scripts/phantom_knight.lua</mod-append:script>
+</mod:findLike>

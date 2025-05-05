@@ -1,0 +1,7 @@
+{
+    "Lua.workspace.library": [
+        "${addons}/ftl-hyperspace/module/library"
+    ],
+    "Lua.runtime.version": "Lua 5.3",
+    "Lua.workspace.checkThirdParty": false
+}
