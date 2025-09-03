@@ -83,7 +83,7 @@
             <choice>
                 <text>No no. I can never recover from this.</text>
                 <event>
-                    <text>You don't have a sword, but you suppose overloading your ship reactor is pretty much the same thing. You override all security measures and set the reactor to self destruct.</text>
+                    <text>You don't have a sword, but you suppose overloading your ship reactor is pretty much the same thing. Ignoring the blaring alarms and pleas of your crew, you set the reactor to self destruct.</text>
                     <damage amount="999"/>
                     <text>Well done.</text>
                 </event>
