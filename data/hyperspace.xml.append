@@ -1,17 +1,25 @@
 <mod:findLike type="crew" limit="1">
-    <mod-append:race name="phantom_knight">
+    <mod-append:race name="phantom_knight_0">
         <maxHealth>100</maxHealth>
-        <damageTakenMultiplier>0.8</damageTakenMultiplier>
-        <damageMultiplier>2.0</damageMultiplier>
-        <rangedDamageMultiplier>0.09</rangedDamageMultiplier>
+        <damageTakenMultiplier>1</damageTakenMultiplier>
+        <damageMultiplier>1.5</damageMultiplier>
+        <rangedDamageMultiplier>0.5</rangedDamageMultiplier>
 		<canBurn>false</canBurn>
 		<canSuffocate>false</canSuffocate>
-		<canPhaseThroughDoors>true</canPhaseThroughDoors>
+		<canPhaseThroughDoors>false</canPhaseThroughDoors>
 		<sabotageSpeedMultiplier>2</sabotageSpeedMultiplier>
-		<moveSpeedMultiplier>0.5</moveSpeedMultiplier>
+		<moveSpeedMultiplier>0.8</moveSpeedMultiplier>
 		<deathSounds>
 			<deathSound>ghostDeath</deathSound>
 		</deathSounds>
+
+        <powerEffect>
+            <cooldown>5</cooldown>
+            <jumpCooldown>full</jumpCooldown>
+            <buttonText>CHARGE</buttonText>
+            <tooltip>Charge across the enemy ship in a beam of light</tooltip>
+            <cooldownColor r="138" g="237" b="31"/>
+        </powerEffect>
     </mod-append:race>
 
     <mod-append:race name="unique_greenknight">
@@ -22,7 +30,7 @@
         <rangedDamageMultiplier>0.09</rangedDamageMultiplier>
 		<canBurn>false</canBurn>
 		<canSuffocate>false</canSuffocate>
-		<canPhaseThroughDoors>true</canPhaseThroughDoors>
+		<canPhaseThroughDoors>false</canPhaseThroughDoors>
 		<sabotageSpeedMultiplier>2</sabotageSpeedMultiplier>
 		<moveSpeedMultiplier>0.5</moveSpeedMultiplier>
 		<deathSounds>

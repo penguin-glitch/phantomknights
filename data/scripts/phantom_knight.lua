@@ -33,7 +33,6 @@ end
 
 local targeting_toggle = false  -- set this to true to start ability targeting
 local target_crew = nil         -- stores the ID of the crew whose ability is being targeted.
-local green_knight = nil -- stores a reference to the green knight's crew table
 
 local roomAtMouse = -1
 local shipAtMouse = -1
@@ -71,15 +70,22 @@ end, function() end)
 script.on_internal_event(Defines.InternalEvents.ON_MOUSE_L_BUTTON_DOWN, function(x, y)
     if targeting_toggle then
         targeting_toggle = false
-        local crewmem = green_knight
+        local crewmem = target_crew
+        local blueprint = nil
 
-        if slotAtMouse ~= nil and crewmem ~= nil then  -- mostly so vscode shuts up. should be impossible for this to fail
+        if slotAtMouse ~= nil and crewmem ~= nil then  
             local start = Hyperspace.Pointf(crewmem.x, crewmem.y)
             local target = Hyperspace.Pointf(mousePosLocal.x, mousePosLocal.y)
 
+            if crewmem.type == "unique_greenknight" then 
+                blueprint = "GREENKNIGHT_BEAM"
+            else 
+                blueprint = "PK_BEAM_" + string.sub(crewmem.type, -1, -1)
+            end
+
             local spaceManager = Hyperspace.App.world.space
             local beam = spaceManager:CreateBeam(
-                Hyperspace.Blueprints:GetWeaponBlueprint("GREENKNIGHT_BEAM"),    
+                Hyperspace.Blueprints:GetWeaponBlueprint(blueprint),    
                 start,
                 crewmem.currentShipId,
                 crewmem.iShipId, -- beams cannot target their own ship, so this prevents the beam from spawning on your own ship
@@ -97,8 +103,8 @@ end)
 
 script.on_internal_event(Defines.InternalEvents_ACTIVATE_POWER, function(power, shipManager)
     local crewmem = power.crew
-    if crewmem.type == "unique_greenknight" then
-        green_knight = crewmem
+    if string.sub(crewmem.type, 0, 14) == "phantom_knight" then
+        target_crew = crewmem
         if targeting_toggle then
             targeting_toggle = false
             shipAtMouse = -1
