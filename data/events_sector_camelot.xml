@@ -1,3 +1,92 @@
-<event name="PK_ANGRY_KNIGHT">
-    <text></text>
+<event name="PK_ORDER_SURRENDER_SPECIAL">
+    <text>The order ship has taken heavy damage, and you are recieving multiple requests to hail. It seems they want to surrender.</text>
+
+    <choice>
+        <text>Accept.</text>
+        <event load="PK_ORDER_INSULT" />
+    </choice>
+
+    <choice>
+        <text>Deny the hail.</text>
+        <event>
+            <text>As soon as you deny the hail, another pops up on your display. You dismiss that, and another appears. It seems he's really mashing that hail button. </text>
+        
+            <choice>
+                <text>Accept.</text>
+                <event load="PK_ORDER_INSULT" />
+            </choice>
+        
+            <choice>
+                <text>Permanently mute their frequency and resume attack.</text>
+                <event />
+            </choice>
+        </event>
+    </choice>
+</event>
+
+
+<event name="PK_ORDER_INSULT">
+    <text>You accept the hail, and a spectral champion appears on your monitor. Before you can speak, he begins roaring:
+
+    "BLACKGUARD! PITIFUL WRETCH! DISHONOURABLE, IMPUDENT CUR! You split from the gaseous excretions of a SLUG! Dimwitted poppy-sniffing BREATHER! HA! Thou art DUST beneath my hard-light boot and I shall DELIGHT in your IMMINENT DESTUCTION!"
+    
+    Ghosts, you realise, never have to pause for breath.
+    </text>
+
+    <choice>
+        <text> Let him continue </text>
+        <event>
+            <text>"You federation FILTH are all the same! SOFT with your FLESH! SOFT in the MIND! SOFT in the BLADE! NO FURY! HA! YOU miserable [UNTRANSLATABLE]-STAIN! THOU- "
+        
+                He's clearly still talking, but your ship's auto-translator appears to have given up. You don't blame it.
+            </text>
+        
+            <choice>
+                <text>So... are you going to surrender?</text>
+                <event load="PK_NEVERSURRENDER" />
+            </choice>
+        
+            <choice>
+                <text>REALLY blow him to hell </text>
+                <event />
+            </choice>
+        </event>
+    </choice>
+
+    <choice>
+        <text>Blow him to hell </text>
+        <event />
+    </choice>
+</event>
+
+<event name="PK_NEVERSURRENDER">
+    <text>SURRENDER? SURRENDER?! HA! The Spectral Order never surrenders! You would DARE give such insult, when I have so GRACIOUSLY offered you the opportunity to REDEEM your miserable existence by falling ON YOUR SWORD and SAVING ME THE TROUBLE of COMING OVER THERE and DOING IT MYSELF!"
+    </text>
+
+    <choice>
+        <text>What a waste of time.</text>
+        <event />
+    </choice>
+
+    <choice>
+        <text>He makes some good points. Fall on your sword.</text>
+        <event>
+            <text>Your mind, damaged as it clearly is by the Ghost's verbal assault, dimly registers that your suicide, all things considered, is probably not optimal for the success chance of your mission. </text>
+        
+            <text>Are you *sure* you want to do this? </text>
+        
+            <choice>
+                <text>Oh. Yeah. Right.</text>
+                <event />
+            </choice>
+        
+            <choice>
+                <text>No no. I can never recover from this.</text>
+                <event>
+                    <text>You don't have a sword, but you suppose overloading your ship reactor is pretty much the same thing. Ignoring the blaring alarms and pleas of your crew, you set the reactor to self destruct.</text>
+                    <damage amount="999"/>
+                    <text>Well done.</text>
+                </event>
+        </event>
+    </choice>
 </event>
